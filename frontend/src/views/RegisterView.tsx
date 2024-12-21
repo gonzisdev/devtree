@@ -36,6 +36,7 @@ const RegisterView = () => {
       }
     }
   }
+
   return (
     <>
       <h1 className='text-4xl text-white font-bold'>Crear cuenta</h1>
