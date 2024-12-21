@@ -1,5 +1,6 @@
 import { Link, Outlet } from 'react-router-dom'
 import { Toaster } from 'sonner'
+import NavigationTabs from '../components/NavigationTabs'
 
 const AppLayout = () => {
   return (
@@ -21,6 +22,7 @@ const AppLayout = () => {
       </header>
       <div className='bg-gray-100  min-h-screen py-10'>
         <main className='mx-auto max-w-5xl p-10 md:p-0'>
+          <NavigationTabs />
           <div className='flex justify-end'>
             <Link
               className='font-bold text-right text-slate-800 text-2xl'
@@ -28,7 +30,7 @@ const AppLayout = () => {
               target='_blank'
               rel='noreferrer noopener'
             >
-              Mi Perfil
+              Mi perfil
             </Link>
           </div>
 
